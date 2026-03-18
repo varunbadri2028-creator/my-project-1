@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(135deg, #f2f4f8, #e6ebf1);
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    width: 360px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+}
+
+h1, .tagline {
+    text-align: center;
+}
+
+textarea, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #007aff;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background: #005ecb;
+}
+
+#output {
+    margin-top: 15px;
+    font-size: 14px;
+    white-space: pre-line;
+}

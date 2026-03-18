@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Human Behaviour Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="card">
+    <h1>🧠 AI Human Behaviour Predictor</h1>
+    <p class="tagline">Friendly AI Doctor 💙</p>
+
+    <select id="language">
+        <option value="en">English</option>
+        <option value="hi">हिंदी</option>
+        <option value="te">తెలుగు</option>
+    </select>
+
+    <textarea id="userText" placeholder="Type how you feel..."></textarea>
+
+    <button onclick="analyzeText()">Analyze</button>
+    <button onclick="startMic()">🎤 Speak</button>
+
+    <div id="output"></div>
+
+    <audio id="audioPlayer" controls></audio>
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
