@@ -3,8 +3,8 @@ import requests, uuid, os, re
 
 app = Flask(__name__)
 
-# ================= ELEVENLABS FREE CONFIG =================
-ELEVEN_API_KEY = "50ebb9d9ec802692ce2650d3e5d75d726456d27422f1f1a7fba885be28995edc"
+# ================= ELEVENLABS FREE CONFIG ================
+ELEVEN_API_KEY =("50ebb9d9ec802692ce2650d3e5d75d726456d27422f1f1a7fba885be28995edc")
 
 # FREE voice: Rachel
 VOICE_MAP = {
